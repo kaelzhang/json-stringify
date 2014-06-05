@@ -1,6 +1,6 @@
 # json-stringify [![NPM version](https://badge.fury.io/js/json-stringify.svg)](http://badge.fury.io/js/json-stringify) [![Build Status](https://travis-ci.org/kaelzhang/json-stringify.svg?branch=master)](https://travis-ci.org/kaelzhang/json-stringify) [![Dependency Status](https://gemnasium.com/kaelzhang/json-stringify.svg)](https://gemnasium.com/kaelzhang/json-stringify)
 
-<!-- description -->
+Enhanced JSON.stringify
 
 ## Install
 
