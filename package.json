@@ -1,6 +1,6 @@
 {
   "name": "json-stringify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Enhanced JSON.stringify",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "enhance"
   ],
   "engines": { 
-    "node": ">=0.11.0"
+    "node": ">=0.10.0"
   },
   "author": "kael",
   "license": "MIT",
