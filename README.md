@@ -66,7 +66,7 @@ And the renderered result is:
 ```js
 {
   "foo": {
-    "bee": "boo" // well formated
+    "bee": "boo" // well formatted
   },
   "foo2": {
   "bee": "boo" // a little ugly
@@ -95,7 +95,7 @@ output:
 ```
 
 
-## `stringify(obj, replacer, indent, options)`
+## `stringify(obj, replacer, indent, [options])`
 
 The first three arguments are the same as to JSON.stringify. 
 
