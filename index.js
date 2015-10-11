@@ -1,14 +1,20 @@
 'use strict';
 
 module.exports = stringify;
-stringify._space = space;
+
+var circular_stringify = require('json-stringify-safe');
 
 // @param {Object} options
 // - indent {Number}
 // - offset {Number}
-function stringify (object, options) {
+function stringify (object, replacer, indent, options) {
   options || (options = {});
-  var str = JSON.stringify(object, null, options.indent || 2);
+  var str = circular_stringify(object, replacer, indent, options.decycler);
+
+  if (!indent) {
+    return str;
+  }
+
   var offset = options.offset || 0;
   var spaces = space(offset);
 
@@ -34,3 +40,6 @@ function space (n) {
 
   return output;
 }
+
+// For testing
+stringify._space = space;

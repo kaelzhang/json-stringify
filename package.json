@@ -1,6 +1,6 @@
 {
   "name": "json-stringify",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Enhanced JSON.stringify",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "offset",
     "enhance"
   ],
-  "engines": { 
+  "engines": {
     "node": ">=0.10.0"
   },
   "author": "kael",
@@ -28,5 +28,8 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1"
   }
 }
